@@ -65,7 +65,7 @@ body{font-family:var(--font-b);color:var(--text-dark);background:#fff;overflow-x
 .bar.act{background:var(--primary);}
 .bar.hi{background:var(--primary-light);}
 .mention-list{list-style:none;margin-top:4px;}
-.mention-list li{display:flex;align-items:center;justify-content:space-between;padding:4px 0;border-bottom:1px solid #f1f1f1;font-size:9px;color:var(--text-dark);font-weight:500;}
+.mention-list li{display:flex;align-items:center;justify-content:flex-start;gap:16px;padding:4px 0;border-bottom:1px solid #f1f1f1;font-size:9px;color:var(--text-dark);font-weight:500;}
 .mention-list li:last-child{border-bottom:none;}
 .mention-src{font-weight:700;font-size:8.5px;}
 .mention-header{font-weight:700!important;font-size:8px!important;color:var(--text-light)!important;text-transform:uppercase;letter-spacing:0.5px;}
