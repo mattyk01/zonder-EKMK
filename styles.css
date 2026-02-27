@@ -68,6 +68,8 @@ body{font-family:var(--font-b);color:var(--text-dark);background:#fff;overflow-x
 .mention-list li{display:flex;align-items:center;justify-content:space-between;padding:4px 0;border-bottom:1px solid #f1f1f1;font-size:9px;color:var(--text-dark);font-weight:500;}
 .mention-list li:last-child{border-bottom:none;}
 .mention-src{font-weight:700;font-size:8.5px;}
+.mention-header{font-weight:700!important;font-size:8px!important;color:var(--text-light)!important;text-transform:uppercase;letter-spacing:0.5px;}
+.mention-arrow{font-size:10px;font-weight:700;color:#16a34a;}
 .mention-tag{font-size:7.5px;font-weight:700;padding:1px 5px;border-radius:10px;background:#ede9fe;color:var(--primary);}
 .mention-tag.new{background:#dcfce7;color:#16a34a;}
 .frow{display:flex;align-items:center;gap:5px;margin-bottom:5px;}
@@ -118,7 +120,7 @@ body{font-family:var(--font-b);color:var(--text-dark);background:#fff;overflow-x
 .litem:hover .logo-text{color:#333;}
 .logo-directv{font-family:Arial Black,sans-serif;letter-spacing:1px;color:#0066B2;}
 .logo-walgreens{font-family:Georgia,serif;font-style:italic;color:#E31837;}
-.logo-dell{font-family:Arial,sans-serif;font-weight:300;letter-spacing:2px;color:#007DB8;}
+.logo-dell{font-family:Roboto,sans-serif;font-weight:400;letter-spacing:2px;color:#007DB8;}
 .logo-amnh{font-family:Georgia,serif;font-size:16px;letter-spacing:3px;color:#1a4d2e;}
 .logo-cars{font-family:Arial,sans-serif;font-weight:700;color:#663399;}
 .logo-auggie{font-family:Georgia,serif;letter-spacing:2px;color:#4169E1;}
@@ -126,14 +128,14 @@ body{font-family:var(--font-b);color:var(--text-dark);background:#fff;overflow-x
 .logo-firstleaf{font-family:Georgia,serif;font-style:italic;color:#5D3225;}
 .logo-waterdrop{font-family:Arial,sans-serif;font-weight:600;color:#0080C6;}
 .litem:hover .logo-directv{color:#0066B2;}
-.litem:hover .logo-walgreens{color:#E31837;}
-.litem:hover .logo-dell{color:#007DB8;}
+.litem:hover .logo-walgreens{color:#E62324;}
+.litem:hover .logo-dell{color:#0076CE;}
 .litem:hover .logo-amnh{color:#1a4d2e;}
 .litem:hover .logo-cars{color:#663399;}
 .litem:hover .logo-auggie{color:#4169E1;}
 .litem:hover .logo-june{color:#000;}
-.litem:hover .logo-firstleaf{color:#5D3225;}
-.litem:hover .logo-waterdrop{color:#0080C6;}
+.litem:hover .logo-firstleaf{color:#440151;}
+.litem:hover .logo-waterdrop{color:#005DFF;}
 .carousel-outer::before,.carousel-outer::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none;}
 .carousel-outer::before{left:0;background:linear-gradient(to right,#fff,transparent);}
 .carousel-outer::after{right:0;background:linear-gradient(to left,#fff,transparent);}
